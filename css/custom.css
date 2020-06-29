@@ -598,7 +598,7 @@ footer {
 		padding: 0px 20px;
 	}
 	.home > div:nth-of-type(-n + 2) {
-		width: 100%;
+		width: 550px;
 	}
 	.home > div:first-of-type {
 		background: url(../img/bg-intro-mobile.svg) no-repeat 0px 0px;
@@ -628,7 +628,7 @@ footer {
 		margin-left: 0px;
 	}
 	.homecontainer p {
-		top: 610px;
+		top: 760px;
 		font-size: 18px;
 		padding: 0px 20px;
 	}
@@ -636,14 +636,14 @@ footer {
 	.homecontainer h2 {
 		font-size: 40px;
 		font-weight: 600;
-		margin-top: 500px;
+		margin-top: 650px;
 		padding: 0px 20px;
 	}
 	.homeb {
-		top: 750px;
+		top: 900px;
 	}
 	.home {
-		height: 890px;
+		height: 990px;
 	}
 	.menub {
 		width: 300px;
@@ -657,26 +657,8 @@ footer {
 		margin-top: 12px;
 	}
 }
-@media (max-width: 375px) {
-	.homecontainer h2 {
-		margin-top: 450px;
-	}
-	.homecontainer p {
-		top: 550px;
-	}
-	.homeb {
-		top: 690px;
-	}
-	.home {
-		height: 830px;
-	}
-}
 @media (max-width: 355px) {
 	.homecontainer h2 {
 		font-size: 35px;
-	}
-
-	.homeb {
-		top: 720px;
 	}
 }
